@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/buttonA"
+                android:layout_width="0dip"
+                android:layout_height="125dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:text="A"
+                android:textSize="80sp"
+                tools:layout_editor_absoluteX="35dp"
+                tools:layout_editor_absoluteY="67dp" />
+
+            <Button
+                android:id="@+id/buttonB"
+                android:layout_width="0dip"
+                android:layout_height="125dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:text="B"
+                android:textSize="80sp"
+                tools:layout_editor_absoluteX="35dp"
+                tools:layout_editor_absoluteY="67dp" />
+
+            <Button
+                android:id="@+id/buttonC"
+                android:layout_width="0dip"
+                android:layout_height="125dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:text="C"
+                android:textSize="80sp"
+                tools:layout_editor_absoluteX="35dp"
+                tools:layout_editor_absoluteY="67dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/buttonD"
+                android:layout_width="0dip"
+                android:layout_height="125dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:text="D"
+                android:textSize="80sp"
+                tools:layout_editor_absoluteX="35dp"
+                tools:layout_editor_absoluteY="67dp" />
+
+            <Button
+                android:id="@+id/buttonE"
+                android:layout_width="0dip"
+                android:layout_height="125dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:text="E"
+                android:textSize="80sp"
+                tools:layout_editor_absoluteX="35dp"
+                tools:layout_editor_absoluteY="67dp" />
+
+            <Button
+                android:id="@+id/buttonF"
+                android:layout_width="0dip"
+                android:layout_height="125dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:text="F"
+                android:textSize="80sp"
+                tools:layout_editor_absoluteX="35dp"
+                tools:layout_editor_absoluteY="67dp" />
+        </TableRow>
+
+    </TableLayout>
+
+</android.support.constraint.ConstraintLayout>
