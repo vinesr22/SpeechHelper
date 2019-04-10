@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -23,8 +22,11 @@
                 android:layout_gravity="center"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
-                android:text="A"
+                android:text="@string/a"
+                android:tag="A"
+                android:onClick="playSound"
                 android:textSize="80sp"
+                style="?android:attr/borderlessButtonStyle"
                 tools:layout_editor_absoluteX="35dp"
                 tools:layout_editor_absoluteY="67dp" />
 
@@ -35,8 +37,11 @@
                 android:layout_gravity="center"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
-                android:text="B"
+                android:text="@string/b"
+                android:tag="B"
+                android:onClick="playSound"
                 android:textSize="80sp"
+                style="?android:attr/borderlessButtonStyle"
                 tools:layout_editor_absoluteX="35dp"
                 tools:layout_editor_absoluteY="67dp" />
 
@@ -47,8 +52,11 @@
                 android:layout_gravity="center"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
-                android:text="C"
+                android:text="@string/c"
+                android:tag="C"
+                android:onClick="playSound"
                 android:textSize="80sp"
+                style="?android:attr/borderlessButtonStyle"
                 tools:layout_editor_absoluteX="35dp"
                 tools:layout_editor_absoluteY="67dp" />
         </TableRow>
@@ -66,8 +74,11 @@
                 android:layout_gravity="center"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
-                android:text="D"
+                android:text="@string/d"
+                android:tag="D"
+                android:onClick="playSound"
                 android:textSize="80sp"
+                style="?android:attr/borderlessButtonStyle"
                 tools:layout_editor_absoluteX="35dp"
                 tools:layout_editor_absoluteY="67dp" />
 
@@ -78,8 +89,11 @@
                 android:layout_gravity="center"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
-                android:text="E"
+                android:text="@string/e"
+                android:tag="E"
+                android:onClick="playSound"
                 android:textSize="80sp"
+                style="?android:attr/borderlessButtonStyle"
                 tools:layout_editor_absoluteX="35dp"
                 tools:layout_editor_absoluteY="67dp" />
 
@@ -90,8 +104,11 @@
                 android:layout_gravity="center"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
-                android:text="F"
+                android:text="@string/f"
+                android:tag="F"
+                android:onClick="playSound"
                 android:textSize="80sp"
+                style="?android:attr/borderlessButtonStyle"
                 tools:layout_editor_absoluteX="35dp"
                 tools:layout_editor_absoluteY="67dp" />
         </TableRow>
